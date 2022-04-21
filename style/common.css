@@ -1,0 +1,61 @@
+:root{
+    --yellow: #ffb72b;
+    --blue:   #1681f5;
+    --drakblue:#0366d0;
+    --white:#f9f5ee;
+    --white2:#fdfdfd;        
+    --black1:#1b1b1b;
+    --black2:#3a362d;              
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-image: url("../Assets/background/bg.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bt_design {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: var(--yellow);
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--black2);
+   }
+   
+   .bt_design:hover {
+    background: #af7e1d;
+   }
+   
+   .bt_design > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+   }
+   
+   .bt_design:hover svg {
+    transform: translateX(5px);
+   }
+   
+   .bt_design:active {
+    transform: scale(0.95);
+   }
+
+   

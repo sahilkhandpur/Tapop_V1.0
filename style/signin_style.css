@@ -1,0 +1,120 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.error{
+    color: #c42432;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+
+#MAIN_container{
+    flex-direction: column;
+    width:50%;
+    height: 50%;
+
+}
+
+#signinSection {
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 84%;
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
+   }
+
+#signinSection h1{
+margin-bottom: 10px;
+font-size: 45px;
+}
+
+
+
+form{
+    flex-direction: column;
+}
+
+.formitem{
+    margin: 10px;
+}
+#signin_bt{
+padding: 10px; }
+
+input:placeholder-shown{
+    color: white;
+
+}
+input{
+    background-color: transparent;
+    width: 80%;
+    border: 0px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+    margin-left: 10px;
+}
+
+input:hover{
+    border: 0px;
+    border-bottom: 2px solid #f6d269;
+
+}
+
+.material-icons {
+  font-size: 30px !important;
+
+}
+input:focus{
+    border: 0px;
+    border-bottom: 2px solid #f6d269;
+    outline: 0;
+
+}
+
+#Err_contain{
+    background-color: white;
+    padding: 10px;
+    width: 83%;
+    position: relative;
+    top: -20px;
+    border-radius: 0 0 15px 15px;
+    z-index: -1;
+}
+
+#er1{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media screen and  (max-width:450px) {
+    #MAIN_container {
+        width: 100%;
+      }
+      
+      main {
+        width: 100vw;
+      } 
+}
+
+  

@@ -1,0 +1,16 @@
+.field_setup { margin-top: 20px; }
+.material-icons { font-size: 30px !important;}
+form .error {
+    align-self: flex-start;
+    margin-left: 54px;
+  }
+  
+  #Err_contain {
+    padding-top: 16px;
+   }
+
+#Err_contain .error{
+  font-weight: 900;
+    text-align: center;
+}
+   
